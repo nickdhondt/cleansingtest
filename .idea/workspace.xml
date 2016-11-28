@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="474d78f2-af67-4aa5-9b0a-4ea407342f34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gcmtest.html" afterPath="$PROJECT_DIR$/gcmtest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/gcmtestcontroller.js" afterPath="$PROJECT_DIR$/controllers/gcmtestcontroller.js" />
     </list>
     <ignored path="cleansingtest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gcmtestcontroller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gcmtestcontroller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/gcmtestcontroller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="132">
+              <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -43,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gcmtest.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gcmtest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gcmtest.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -62,8 +63,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/controllers/gcmtestcontroller.js" />
         <option value="$PROJECT_DIR$/gcmtest.html" />
+        <option value="$PROJECT_DIR$/controllers/gcmtestcontroller.js" />
       </list>
     </option>
   </component>
@@ -217,12 +218,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480330353085</updated>
       <workItem from="1480330354250" duration="403000" />
-      <workItem from="1480331061382" duration="3925000" />
+      <workItem from="1480331061382" duration="4044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4328000" />
+    <option name="totallyTimeSpent" value="4447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -280,18 +281,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/gcmtestcontroller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gcmtest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/gcmtestcontroller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
           <folding />
         </state>
       </provider>

@@ -12,8 +12,8 @@ router.get("/", function (req, res) {
 
 router.post("/", function (req, res) {
     var body;
-    if (req.body.topic_id !== null) body = JSON.stringify({condition: "'" + req.body.topic_id + "' in topics", priority: "high", data:{fromId: req.body.from_id, announcement: req.body.announcement}});
-    else if(req.body.task_id !== null) body = JSON.stringify({condition: "'" + req.body.topic_id + "' in topics", priority: "high", data:{taskFinished: req.body.task_id, userFinished: req.body.user_id}});
+    if (req.body.topic_id !== null) body = JSON.stringify({condition: "'household_" + req.body.topic_id + "' in topics", priority: "high", data:{fromId: req.body.from_id, announcement: req.body.announcement}});
+    else if(req.body.task_id !== null) body = JSON.stringify({condition: "'household_" + req.body.topic_id + "' in topics", priority: "high", data:{taskFinished: req.body.task_id, userFinished: req.body.user_id}});
 
     var options = {
         url: "https://fcm.googleapis.com/fcm/send",
