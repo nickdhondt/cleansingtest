@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/controllers/gcmtestcontroller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="110" selection-start-line="13" selection-start-column="110" selection-end-line="13" selection-end-column="110" />
+              <caret line="13" column="160" selection-start-line="13" selection-start-column="160" selection-end-line="13" selection-end-column="160" />
               <folding />
             </state>
           </provider>
@@ -161,15 +161,15 @@
       <option name="presentableId" value="Default" />
       <updated>1480330353085</updated>
       <workItem from="1480330354250" duration="403000" />
-      <workItem from="1480331061382" duration="297000" />
+      <workItem from="1480331061382" duration="409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="700000" />
+    <option name="totallyTimeSpent" value="812000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -227,7 +227,7 @@
     <entry file="file://$PROJECT_DIR$/controllers/gcmtestcontroller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="110" selection-start-line="13" selection-start-column="110" selection-end-line="13" selection-end-column="110" />
+          <caret line="13" column="160" selection-start-line="13" selection-start-column="160" selection-end-line="13" selection-end-column="160" />
           <folding />
         </state>
       </provider>
