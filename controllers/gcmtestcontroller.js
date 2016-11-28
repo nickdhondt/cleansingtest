@@ -7,7 +7,7 @@ router.use(bodyParser.urlencoded({extended: true}));
 var request = require("request");
 
 router.get("/", function (req, res) {
-    res.sendFile(path.resolve("gcmtest.html"));
+    res.sendFile(path.resolve("index.html"));
 });
 
 router.post("/", function (req, res) {
@@ -26,13 +26,12 @@ router.post("/", function (req, res) {
         body: body
     };
 
-    console.log(body);
-
     request(options, function (error, response, body) {
-        console.log(body);
-    });
+        var JSONBody = JSON.parse(body);
 
-    res.sendFile(path.resolve("gcmtest.html"));
+        if (typeof JSONBody.message_id !== "undefined" && typeof JSONBody.error === "undefined") res.sendFile(path.resolve("success.html"));
+        else res.sendFile(path.resolve("failed.html"));
+    });
 });
 
 module.exports = router;
