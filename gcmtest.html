@@ -47,6 +47,23 @@
         input, textarea {
             padding: .33em;
             width: 100%;
+            border: 1px solid #b2b2b2;
+            background: #fff;
+            border-radius: 2px;
+        }
+
+        input:hover, textarea:hover {
+            border: 1px solid #acacac;
+            background: #fafafa;
+        }
+
+        input:focus, textarea:focus {
+            border: 1px solid rgba(0,0,0,0);
+            box-shadow: 0 0 5px rgba(0,0,0,.5);
+        }
+
+        input[type=submit]:hover {
+            cursor: pointer;
         }
 
         textarea {
