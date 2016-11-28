@@ -11,7 +11,7 @@ router.get("/", function (req, res) {
 });
 
 router.post("/", function (req, res) {
-    var body = JSON.stringify({condition: "'" + req.body.topic + "' in topics", notification:{title: req.body.title, body: req.body.body, sound:"default"}});
+    var body = JSON.stringify({condition: "'" + req.body.topic + "' in topics", notification:{title: req.body.title, body: req.body.body, sound:"default", priority: "high"}});
 
     var options = {
         url: "https://fcm.googleapis.com/fcm/send",
