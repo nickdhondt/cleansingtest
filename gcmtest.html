@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>The Cleansing FCM dummy demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         * {
             margin: 0;
@@ -56,6 +57,13 @@
         label {
             margin-bottom: .5em;
             display: block;
+        }
+
+        @media screen and (max-width: 640px){
+            main {
+                margin: 1em;
+                width: calc(100% - 2em);
+            }
         }
     </style>
 </head>
