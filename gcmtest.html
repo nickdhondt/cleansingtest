@@ -2,15 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cloud Messaging test</title>
+    <title>The Cleansing FCM dummy demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            font-size: 1em;
+            box-sizing: border-box;
+            font-weight: normal;
+        }
+
+        h1 {
+            font-size: 1.75em;
+        }
+
+        h2 {
+            font-size: 1.4em;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        main {
+            margin: 2em auto;
+            width: 500px;
+            border: 1px solid #808080;
+            background: #f1f1f1;
+            padding: 1em;
+        }
+
+        section {
+            border-top: 1px solid #808080;
+            padding-top: 1em;
+            margin-top: 1em;
+        }
+
+        li {
+            padding: .5em 0;
+        }
+
+        input, textarea {
+            padding: .25em;
+            width: 100%;
+        }
+
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        label {
+            margin-bottom: .5em;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-<h1>Cloud Messaging test</h1>
-<form action="" method="post">
-    <input type="text" name="topic" placeholder="topic" value="household_37">
-    <input type="number" name="from_id" placeholder="from id" value="33">
-    <input type="text" name="announcement" placeholder="announcement" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies sapien mi, eget convallis augue.">
-    <input type="submit" value="Send">
-</form>
+<main>
+    <h1>The Cleansing FCM dummy demo</h1>
+    <section>
+        <h2>Send announcement</h2>
+        <form action="" method="post">
+            <ul>
+                <li>
+                    <label for="topic_id">Topic ID:</label>
+                    <input type="number" id="topic_id" name="topic_id" placeholder="Topic ID" value="37">
+                </li>
+                <li>
+                    <label for="from_id">From ID:</label>
+                    <input type="number" id="from_id" name="from_id" placeholder="From ID" value="33">
+                </li>
+                <li>
+                    <label for="announcement">Announcement:</label>
+                    <textarea name="announcement" id="announcement" placeholder="Announcement">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies sapien mi, eget convallis augue.</textarea>
+                </li>
+                <li>
+                    <input type="submit" value="Send announcement">
+                </li>
+            </ul>
+        </form>
+    </section>
+    <section>
+        <h2>Finish task</h2>
+        <form action="" method="post">
+            <ul>
+                <li>
+                    <label for="topic_id_finish">Topic ID:</label>
+                    <input type="number" id="topic_id_finish" name="topic_id" placeholder="Topic ID" value="37">
+                </li>
+                <li>
+                    <label for="task_id">Task ID:</label>
+                    <input type="number" id="task_id" name="task_id" placeholder="Task id" value="20">
+                </li>
+                <li>
+                    <label for="user_id">User ID:</label>
+                    <input type="number" id="user_id" name="user_id" placeholder="User id" value="33">
+                </li>
+                <li>
+                    <input type="submit" value="Finish task">
+                </li>
+            </ul>
+        </form>
+    </section>
+</main>
 </body>
 </html>
